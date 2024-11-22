@@ -1,0 +1,42 @@
+@use 'footer';
+@use 'fotitos';
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #eae5dc;
+    color: #007ffb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo 
+{
+height: 100px;
+}
+  
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  nav ul li a {
+    color: #007ffb;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    background-color: #595959;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
